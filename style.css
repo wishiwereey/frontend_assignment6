@@ -1,0 +1,126 @@
+body{
+    background-color: rgb(243, 238, 238);
+}
+.section {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+#profile {
+  background: rgb(243, 238, 238);
+  color: rgb(32, 31, 31);
+  padding: 20px;
+  border-radius: 12px;
+  transition: background 0.3s, color 0.3s;
+}
+#profile.dark {
+  background: rgb(32, 31, 31);
+  color: rgb(243, 238, 238);
+}
+
+#about {
+  padding: 20px;
+  border-radius: 12px;
+  margin-top: 20px;
+}
+#status {
+  font-weight: bold;
+  color: rgb(216, 176, 176);
+}
+
+#gallery-section {
+  padding: 20px;
+  border-radius: 12px;
+  margin-top: 20px;
+}
+#gallery {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 12px;
+  min-height: 200px; 
+}
+.gallery-img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+#favorites {
+  padding: 20px;
+  border-radius: 12px;
+  margin-top: 20px;
+}
+.acc-heading {
+  font-weight: bold;
+  margin: 8px 0 0;
+  padding: 10px 14px;
+  background: rgb(216, 176, 176);
+  border-radius: 6px;
+}
+.acc-panel {
+  display: none;
+  padding: 4px 14px;
+}
+
+#skills {
+  padding: 20px;
+  border-radius: 12px;
+  margin-top: 20px;
+}
+#skill-input {
+  padding: 8px;
+  width: 250px;
+  border: 1px solid gray;
+  border-radius: 6px;
+}
+#skill-message {
+  color: red;
+}
+
+#social {
+  padding: 20px;
+  border-radius: 12px;
+  margin-top: 20px;
+}
+#social-link {
+  font-weight: bold;
+}
+
+#contact {
+  padding: 20px;
+  border-radius: 12px;
+  margin-top: 20px;
+}
+#contact-form input {
+  padding: 8px;
+  width: 250px;
+  border: 1px solid gray;
+  border-radius: 6px;
+}
+#preview {
+  margin-top: 16px;
+  padding: 12px;
+  border-left: 4px solid rgb(216, 176, 176);
+}
+
+.skill-bar-item {
+  margin-bottom: 12px;
+}
+.bar-bg {
+  width: 100%;
+  height: 24px;
+  background: rgb(230, 225, 225);
+  border-radius: 12px;
+  overflow: hidden;
+}
+.bar {
+  width: 0;              
+  height: 100%;
+  background: rgb(216, 176, 176);
+  color: white;
+  font-size: 12px;
+  line-height: 24px;
+  text-align: center;
+  box-sizing: border-box;
+  overflow: hidden;
+  white-space: nowrap;
+}
